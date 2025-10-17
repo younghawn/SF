@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Smart-farm",
+    "slug": "Smart-farm",
+    "scheme": "smartfarm",
+    "version": "1.0.0",
+    "newArchEnabled": false,
+    "icon": "./assets/images/mainLogo.png",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/mainLogo.png"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "bridgeless": false
+    },
+    "extra": {
+      "weatherApiKey": "3ce6ebf892ada00d385ca8b8da493305",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bcf7bfa5-66cf-4489-bbe2-596b1b66e920"
+      }
+    },
+    "android": {
+      "package": "com.younghwan12.Smartfarm",
+      "icon": "./assets/images/mainLogo.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/mainLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.younghwan12.Smartfarm",
+      "icon": "./assets/images/mainLogo.png"
+    },
+    "plugins": [
+          "expo-router"
+        ]
+  }
+}
